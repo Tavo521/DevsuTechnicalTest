@@ -75,3 +75,7 @@ e
 5src/test/java/petstore/put/update-pet-snippet.feature,8\b\8ba3d065e92b78c96f2e108dc4c65d06cf579a4a
 c
 3src/test/java/petstore/main/MainScenarioRunner.java,9\c\9c0e8609199b8113f6ddd72c58e6709ab57f031b
+k
+;src/test/java/petstore/main/fail-parsing-parameter-get.json,b\b\bbbfff92bd712c313ba6bc87ace3829636b4b5a9
+k
+;src/test/java/petstore/main/fail-parsing-parameter-put.json,7\d\7db9a272406b1d48b97e693d9368c31fc6dddfe8

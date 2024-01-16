@@ -1,8 +1,8 @@
 {
-  "id": 100,
+  "id": "#number",
   "category": {
     "id": "#number",
-    "name": "Roger"
+    "name": "#string"
   },
   "name": "#string",
   "photoUrls": [
