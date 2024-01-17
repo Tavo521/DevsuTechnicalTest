@@ -4,6 +4,7 @@ import demoblaze.questions.OrderCompleted;
 import demoblaze.tasks.AddProducts;
 import demoblaze.tasks.FillOrder;
 import demoblaze.tasks.ViewProducts;
+import demoblaze.utils.NavigateTo;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -28,7 +29,7 @@ public class BuyProductsStepDefinitions {
 
     @Given("user login to the shopping page")
     public void userLoginToTheShoppingPage() {
-        theActorCalled(user).attemptsTo(new OpenUrl("https://demoblaze.com/index.html"));
+        theActorCalled(user).attemptsTo(NavigateTo.theDemoblazeHomePage());
     }
     @When("Add products to the shopping cart")
     public void addProductsToTheShoppingCart() {
@@ -44,6 +45,7 @@ public class BuyProductsStepDefinitions {
     }
     @Then("The message that the purchase was successfully completed is displayed")
     public void theMessageThatThePurchaseWasSuccessfullyCompletedIsDisplayed() {
-        System.out.println(OrderCompleted.text().answeredBy(theActorInTheSpotlight()));
+        theActorInTheSpotlight().should(seeThat("The order was completed", OrderCompleted.text(),
+                equalTo("Thank you for your purchase!")));
     }
 }

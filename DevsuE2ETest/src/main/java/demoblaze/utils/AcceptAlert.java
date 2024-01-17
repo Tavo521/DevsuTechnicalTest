@@ -6,6 +6,10 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 
 public class AcceptAlert {
+
+    private AcceptAlert(){
+
+    }
     public static void handleAlert(Actor actor){
         try {
             Thread.sleep(3000);
