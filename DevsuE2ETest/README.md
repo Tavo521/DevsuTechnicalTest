@@ -34,7 +34,7 @@ All information and implementations in this project can be found on next website
     ├───src
     │   ├───main
     │   │   ├───java
-    │   │   │   └───com.devus.automation
+    │   │   │   └───com.devsu.automation
     │   │   │        ├───exceptions         # Custom exceptions 
     │   │   │        ├───interactions       # Low level actions made into application for achieving a task
     │   │   │        ├───questions          # Layer of screenplay pattern that help validating application state in assertions
