@@ -1,4 +1,4 @@
-**##Project for test automation 
+Project for test automation 
 
 This is a test automation project using Serenity BDD with implementation of the Screenplay Pattern, and other tools as Cucumber, Junit,
 Java language, Gradle as build and dependencies management tool. Website used for testing is Demoblaze webpage (https://demoblaze.com/)
