@@ -78,4 +78,4 @@ gradle clean test aggregate
 **NOTE:** The report generated from tests execution is generated in the path `/target/site/serenity/index.html`
 
 ## Author 🌍🔭
-- [Gustavo Andres Rincon Grajales,]([https://github.com/caolivap](https://github.com/Tavo521)https://github.com/Tavo521)
+- [Gustavo Andres Rincon Grajales]([https://github.com/Tavo521]
