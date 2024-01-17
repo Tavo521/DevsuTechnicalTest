@@ -3,7 +3,7 @@
 This is a test automation project using Serenity BDD with implementation of the Screenplay Pattern, and other tools as Cucumber, Junit,
 Java language, Gradle as build and dependencies management tool. Website used for testing is Demoblaze webpage (https://demoblaze.com/)
 
-This project was created to develop the technical test for [**DEVSU**] 
+This project was created to develop the technical challenge for [**DEVSU**] 
 
 
 <!-- Table of Contents -->
@@ -78,4 +78,4 @@ gradle clean test aggregate
 **NOTE:** The report generated from tests execution is generated in the path `/target/site/serenity/index.html`
 
 ## Author 🌍🔭
-- [Gustavo Andres Rincon Grajales]([https://github.com/Tavo521)
+[Gustavo Andres Rincon Grajales](https://github.com/Tavo521)
