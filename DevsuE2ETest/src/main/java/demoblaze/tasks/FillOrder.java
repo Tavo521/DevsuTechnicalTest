@@ -21,7 +21,7 @@ public class FillOrder implements Task {
                 Click.on(FormPlaceOrder.PURCHASE));
     }
 
-    public static Performable withPersonalData(){
+    public static Performable withPersonalData() {
         return instrumented(FillOrder.class);
     }
 }

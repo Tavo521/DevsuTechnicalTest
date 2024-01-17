@@ -12,10 +12,10 @@ public class ViewProducts implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Click.on(ProductsPage.CART),
-                Click.on(ProductsPage.PLACE_ORDER));
+                Click.on(ProductsPage.PLACE_ORDER_BUTTON));
     }
 
-    public static Performable inShoppingCart(){
+    public static Performable inShoppingCart() {
         return instrumented(ViewProducts.class);
     }
 }

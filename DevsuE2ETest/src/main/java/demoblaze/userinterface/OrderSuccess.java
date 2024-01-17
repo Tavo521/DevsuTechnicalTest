@@ -1,9 +1,9 @@
 package demoblaze.userinterface;
 
-
-import org.openqa.selenium.By;
+import net.serenitybdd.screenplay.targets.Target;
 
 public class OrderSuccess {
-    public static By THANKS_TEXT = By.xpath("/html/body/div[10]/h2");
+    public static final Target THANKS_TEXT = Target.the("")
+            .locatedBy("//div[@class='sweet-alert  showSweetAlert visible']//h2");
 
 }

@@ -15,9 +15,10 @@ import java.time.Duration;
 
 public class AcceptAlert {
 
-    private AcceptAlert(){
+    private AcceptAlert() {
 
     }
+
     private static final Logger LOGGER = LoggerFactory.getLogger(AlertHandler.class);
 
     public static void handleAlert(Actor actor) {

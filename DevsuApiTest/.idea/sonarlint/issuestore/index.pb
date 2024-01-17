@@ -37,3 +37,5 @@ k
 ;src/test/java/petstore/main/fail-parsing-parameter-get.json,b\b\bbbfff92bd712c313ba6bc87ace3829636b4b5a9
 k
 ;src/test/java/petstore/main/fail-parsing-parameter-put.json,7\d\7db9a272406b1d48b97e693d9368c31fc6dddfe8
+g
+7target/karate-reports_1705388019672/karate-summary.html,9\4\94ec77be1852a361538d9aeb98cd08a379f0cba3
