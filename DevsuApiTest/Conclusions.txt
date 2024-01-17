@@ -1,0 +1,3 @@
+In my experience with API testing using the Karate framework, I realized that breaking down tasks step by step is key. I made sure all the required objectives were met by setting up a smart system where all tests run together smoothly, saving time compared to doing them one by one. I also made things faster by running multiple tests at the same time, keeping everything neat and tidy.
+
+My goal was not just to get things done efficiently, but to make testing easier for everyone. By making tests run together and speeding up the whole process.
