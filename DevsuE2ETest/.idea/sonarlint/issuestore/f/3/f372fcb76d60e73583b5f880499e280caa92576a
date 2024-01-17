@@ -1,0 +1,12 @@
+
+H
+java:S2440"+Remove this instantiation of "AcceptAlert".(Û Îë8¹áñÂÑ1
+p
+java:S1128"NRemove this unused import 'net.serenitybdd.screenplay.abilities.BrowseTheWeb'.(æÙ›Íøÿÿÿÿ8¼áñÂÑ1
+k
+java:S1128
+"IRemove this unused import 'net.serenitybdd.screenplay.actions.HtmlAlert'.( û“üÿÿÿÿ8¼áñÂÑ1
+S
+java:S1128"6Remove this unused import 'org.openqa.selenium.Alert'.(Àã¥‰8½áñÂÑ1
+e
+java:S1128"HRemove this unused import 'org.openqa.selenium.NoAlertPresentException'.(²Â•ä8½áñÂÑ1

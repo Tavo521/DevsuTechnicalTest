@@ -11,10 +11,9 @@ buildscript {
         }
     }
     dependencies {
-        classpath "net.serenity-bdd:serenity-gradle-plugin:3.3.0"
+        classpath "net.serenity-bdd:serenity-gradle-plugin:4.0.30"
     }
 }
-
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -23,20 +22,19 @@ apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.3.5'
-    serenityCucumberVersion = '3.3.4'
-    junitVersion = '4.13.1'
+    serenityCoreVersion = '4.0.43'
+    serenityCucumberVersion = '4.0.43'
+    junitVersion = '4.13.2'
     assertJVersion = '3.23.1'
     logbackVersion = '1.4.12'
 }
 
 dependencies {
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
-
-    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
-            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '4.0.43'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '4.0.43'
+    testImplementation "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
             "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
             "junit:junit:${junitVersion}",
             "org.junit.platform:junit-platform-launcher:1.8.2",

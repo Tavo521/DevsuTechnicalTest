@@ -1,0 +1,42 @@
+
+v
+java:S1104"YMake FIRST_PRODUCT a static final constant or non-public and provide accessors if needed.( ×ôÚ8şÏü Ñ1
+w
+java:S1104"ZMake SECOND_PRODUCT a static final constant or non-public and provide accessors if needed.(ÎÓ•8ÿÏü Ñ1
+l
+java:S1104"PMake HOME a static final constant or non-public and provide accessors if needed.(íõ–M8ÿÏü Ñ1
+r
+java:S1104	"PMake CART a static final constant or non-public and provide accessors if needed.(¯©§ßÿÿÿÿÿ8ÿÏü Ñ1
+€
+java:S1104
+"^Make ADD_TO_CART_BUTTON a static final constant or non-public and provide accessors if needed.(ı÷ùËøÿÿÿÿ8ÿÏü Ñ1
+t
+java:S1104"WMake PLACE_ORDER a static final constant or non-public and provide accessors if needed.(¬·­ú8Éæ‚¡Ñ1
+P
+java:S1444"3Make this "public static FIRST_PRODUCT" field final( ×ôÚ8ÿÏü Ñ1
+Q
+java:S1444"4Make this "public static SECOND_PRODUCT" field final(ÎÓ•8ÿÏü Ñ1
+F
+java:S1444"*Make this "public static HOME" field final(íõ–M8ÿÏü Ñ1
+L
+java:S1444	"*Make this "public static CART" field final(¯©§ßÿÿÿÿÿ8ÿÏü Ñ1
+Z
+java:S1444
+"8Make this "public static ADD_TO_CART_BUTTON" field final(ı÷ùËøÿÿÿÿ8€Ğü Ñ1
+N
+java:S1444"1Make this "public static PLACE_ORDER" field final(¬·­ú8Êæ‚¡Ñ1
+u
+java:S3008"XRename this field "FIRST_PRODUCT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ×ôÚ8Ğü Ñ1
+v
+java:S3008"YRename this field "SECOND_PRODUCT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÓ•8‚Ğü Ñ1
+k
+java:S3008"ORename this field "HOME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íõ–M8‚Ğü Ñ1
+q
+java:S3008	"ORename this field "CART" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯©§ßÿÿÿÿÿ8‚Ğü Ñ1
+
+java:S3008
+"]Rename this field "ADD_TO_CART_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı÷ùËøÿÿÿÿ8‚Ğü Ñ1
+s
+java:S3008"VRename this field "PLACE_ORDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬·­ú8Îæ‚¡Ñ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(©›ó®8„Ğü Ñ1
